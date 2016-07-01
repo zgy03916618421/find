@@ -14,6 +14,7 @@ http.createServer(function (req,res) {
     if(ISBN!="favicon.ico"){
         //final["Amazon"]=AmazonF.AmazonF(ISBN);
         final["DouBan"]=DBF.DBF(ISBN);
+        final["Amazon"]=AmazonF.AmazonF(ISBN);
         var result=JSON.stringify(final);
         res.writeHeader(200,{
             'Content-Type':"application/json;charset=utf-8"

@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "jsdom": "^9.3.0",
+    "request": "^2.72.0",
+    "sync-request": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
